@@ -19,7 +19,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView"
+        android:id="@+id/workout"
         android:text="@string/workout"
         android:layout_below="@id/findWorkout"/>
 
@@ -29,6 +29,10 @@
         android:id="@+id/findWorkout"
         android:text="@string/find_workout"
         android:layout_below="@+id/workoutType"
-        android:layout_alignLeft="@+id/workoutType"/>
+        android:layout_alignLeft="@+id/workoutType"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:onClick="onClickFindWorkout"
+        />
 
 </RelativeLayout>
