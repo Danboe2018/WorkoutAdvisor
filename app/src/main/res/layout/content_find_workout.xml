@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/workoutType"
         android:layout_marginTop="35dp"
-        android:layout_alignParentTop="true"/>
+        android:layout_alignParentTop="true"
+        android:entries="@array/workout_types"/>
 
     <TextView
         android:layout_width="wrap_content"
