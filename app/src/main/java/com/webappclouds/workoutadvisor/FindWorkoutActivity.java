@@ -21,7 +21,7 @@ public class FindWorkoutActivity extends Activity {
         Spinner workoutType = findViewById(R.id.workoutType);
 
         String workout = String.valueOf(workoutType.getSelectedItem());
-        
+
         workouts.setText(workout);
     }
 }
