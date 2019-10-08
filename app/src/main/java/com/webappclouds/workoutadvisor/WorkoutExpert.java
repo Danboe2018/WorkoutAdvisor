@@ -11,12 +11,12 @@ public class WorkoutExpert {
         if(workoutTypes.equals("Chest")) {
             workout.add("Bench Press");
             workout.add("Cable Flys");
-        } else if (workoutTypes.equals("Triceps")){
+        } else if (workoutTypes.equals("Triceps")) {
             workout.add("Tricep Ext");
             workout.add("Tricep Pushdowns");
         } else if (workoutTypes.equals("Shoulders")) {
             workout.add("Shoulder Press");
-        } else if (workoutTypes.equals("Biceps")){
+        } else if (workoutTypes.equals("Biceps")) {
             workout.add("Bicep Curls");
         }
 
