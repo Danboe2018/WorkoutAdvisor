@@ -1,6 +1,7 @@
 pipeline {
-    agent any
-
+    agent {
+        label 'android'
+    }
     stages {
         stage('clean') {
             steps { 
@@ -22,6 +23,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
+                archiveArtifacts '**/*.apk'
             }
         }
     }
